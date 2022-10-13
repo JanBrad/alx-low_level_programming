@@ -2,8 +2,8 @@
 
 /*
  *   main - Entry point
- *   Description: 'the program's description'
  *   Return: Always 0 (Success)
+ *   Description: 'the program desrciption'
  */
 
 int main(void)
