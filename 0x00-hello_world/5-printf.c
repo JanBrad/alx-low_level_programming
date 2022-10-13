@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/** 
+/**
  *main - prints text
- * 
+ *
  *Return: returns 0
  */
 
