@@ -2,11 +2,11 @@
 
 int main(void)
 {
-char x;
+char x = 'a';
 
 while (x <= 'z')
 {
-x = 'a';
+
 putchar(x);
 x++;
 }
