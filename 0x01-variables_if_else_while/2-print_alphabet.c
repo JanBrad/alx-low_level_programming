@@ -14,8 +14,8 @@ while (x <= 'z')
 {
 
 putchar(x);
-putchar('\n');
 x++;
+putchar('\n');
 }
 return (0);
 }
