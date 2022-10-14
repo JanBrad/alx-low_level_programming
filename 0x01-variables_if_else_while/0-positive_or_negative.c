@@ -27,5 +27,3 @@ printf("%d is zero",n);
 
 return (0);
 }
-
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 0-positive_or_negative.c
