@@ -1,16 +1,31 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-main(void)
+int main(void)
 {
-if(n>0){
-printf(n+"is positive");
+int n;
+
+srand(time(0));
+
+n = rand() - RAND_MAX / 2;
+
+if(n>0)
+{
+printf("%d is positive",n);
 }
 
-else if(n<0){
-printf(n+"is negative");
+else if(n<0)
+{
+printf("%d is negative",n);
 }
 
-else{
-printf(n+"is zero");
+else
+{
+printf("%d is zero",n);
 }
-}	
+
+return (0);
+}
+
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 0-positive_or_negative.c
