@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/** 
+/**
  *main - starting point
  *
  *Return: returns 0
@@ -30,7 +30,7 @@ printf("Last digit of %d is %d and is 0\n", n, x);
 else
 {
 int x = n % 10;
-printf("Last digit of %d is %d and is lass than 6 and is not 0\n", n, x);
+printf("Last digit of %d is %d and is less than 6 and is not 0\n", n, x);
 }
 
 return (0);
