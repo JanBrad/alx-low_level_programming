@@ -13,7 +13,7 @@ char x = 'a';
 while (x <= 'z')
 {
 
-putchar(x'\n');
+putchar(x"\n");
 x++;
 }
 return (0);
