@@ -24,13 +24,13 @@ printf("Last digit of %d is %d and is greater than 5\n", n, x);
 else if (n % 10 == 0)
 {
 int x = n % 10;
-printf("Last digit of %d is %d and is zero\n", n, x);
+printf("Last digit of %d is %d and is 0\n", n, x);
 }
 
 else
 {
 int x = n % 10;
-printf("Last digit of %d is %d and is lass than 6 and is not zero\n", n, x);
+printf("Last digit of %d is %d and is lass than 6 and is not 0\n", n, x);
 }
 
 return (0);
