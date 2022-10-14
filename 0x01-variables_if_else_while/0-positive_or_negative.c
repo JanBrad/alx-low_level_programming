@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * Main - Starts here
+ *main - prints text
  *
- * Return - Number is negative positive or zero
+ *Return: returns 0
  */
 
 int main(void)
