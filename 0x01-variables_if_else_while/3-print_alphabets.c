@@ -11,13 +11,20 @@ int main(void)
 char x = 'a';
 char y = 'A';
 
-while (x <= 'a' && y <= 'A')
+while (x <= 'a')
 {
 putchar(x);
-putchar(y);
+
 x++;
+}
+
+while (y <= 'A')
+{
+putchar(y);
+
 y++;
 }
+
 putchar('\n');
 return (0);
 }
