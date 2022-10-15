@@ -9,12 +9,14 @@
 int main(void)
 {
 
-int char x = 0;
+char x = 0;
 
 while (x < 10)
 {
 putchar(x);
 x++;
 }
+putchar('\n');
+return (0);
 }
 
