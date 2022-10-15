@@ -13,7 +13,7 @@ char x = 'a';
 while (x <= 'z')
 {
 
-while (x !NOT 'e' && x !NOT 'q')
+while (x !'e' && x !'q')
 {
 putchar(x);
 }
