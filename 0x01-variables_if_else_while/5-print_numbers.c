@@ -10,8 +10,9 @@ int main(void)
 {
 
 char x = '0';
+char y = '9';
 
-while (x < 10)
+while (x <= y)
 {
 putchar(x);
 x++;
