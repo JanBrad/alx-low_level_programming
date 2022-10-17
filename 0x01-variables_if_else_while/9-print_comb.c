@@ -18,14 +18,11 @@ putchar(x);
 if (x < '9')
 {
 putchar(',');
-}
-
-if (x <= '9')
-{
 putchar(' ');
 }
 
 x++;
 }
+putchar('\n');
 return (0);
 }
