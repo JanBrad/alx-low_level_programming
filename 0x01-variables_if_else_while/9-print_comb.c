@@ -3,7 +3,7 @@
 /**
  *main - starting point
  *
- *Return: returns 0 
+ *Return: returns 0
  */
 
 int main(void)
@@ -15,7 +15,6 @@ while (x <= '9')
 {
 putchar(x);
 putchar(',');
-putchar('\n');
 x++;
 }
 putchar('\n');
