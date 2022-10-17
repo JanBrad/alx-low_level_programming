@@ -11,7 +11,7 @@
 int main(void)
 {
 
-short x = 0;
+int x = '0';
 
 while (x < 10)
 {
