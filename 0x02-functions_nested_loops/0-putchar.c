@@ -6,7 +6,7 @@
  *Return: returns 0
  */
 
-int printwrds(int x)
+int main(int x)
 {
 int x = _putchar;
 

@@ -1,3 +1,3 @@
 int _putchar(char c);
 
-int printwrds(int x);
+//int printwrds(int x);
