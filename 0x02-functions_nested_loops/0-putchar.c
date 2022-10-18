@@ -6,9 +6,18 @@
  *Return: returns 0
  */
 
-int main(int x)
+int main(void)
 {
-int x = _putchar;
+char print[9] = " _putchar";
 
-return x;
+int = 0;
+
+while (x <= 9)
+{
+putchar(print[x];
+x++;
+}
+putchar('\n');
+
+return (0);
 }
