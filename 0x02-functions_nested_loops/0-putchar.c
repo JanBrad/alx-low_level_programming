@@ -8,7 +8,7 @@
 
 int main(void)
 {
-char print[9] = "_putchar";
+char print[8] = "_putchar";
 
 int x = 0;
 
