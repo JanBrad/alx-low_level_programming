@@ -8,11 +8,13 @@
 
 int main(void)
 {
-int  x = 'a';
+char  print[26] = "abcdefghijklmnopqrstuvwxyz";
 
-while (x <= 'z')
+int x = 0;
+
+while (x < 27)
 {
-print_alphabet(x);
+print_alphabet(print[x]);
 x++;
 }
 print_alphabet('\n');
