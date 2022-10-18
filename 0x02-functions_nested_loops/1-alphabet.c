@@ -6,17 +6,14 @@
  *Return: Always 0
  */
 
-int main(void)
+void print_alphabet(void)
 {
 char  print[26] = "abcdefghijklmnopqrstuvwxyz";
 
-int x = 0;
+return print[26];
+}
 
-while (x < 27)
+int main(void)
 {
-print_alphabet(print[x]);
-x++;
-}
-print_alphabet('\n');
+print_alphabet();
 return (0);
-}
