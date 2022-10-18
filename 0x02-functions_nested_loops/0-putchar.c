@@ -14,7 +14,7 @@ int x = 0;
 
 while (x <= 9)
 {
-putchar(print[x]);
+_putchar(print[x]);
 x++;
 }
 _putchar('\n');
