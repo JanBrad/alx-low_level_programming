@@ -12,9 +12,9 @@ char x = 'a';
 
 while (x <= 'z')
 {
-_putchar(x);
+print_alphabet(x);
 x++;
 }
-_putchar('\n');
+print_alphabet('\n');
 return (0);
 }
