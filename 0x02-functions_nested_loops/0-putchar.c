@@ -12,7 +12,7 @@ char print[8] = "_putchar";
 
 int x = 0;
 
-while (x < 9)
+while (x < 8)
 {
 _putchar(print[x]);
 x++;
