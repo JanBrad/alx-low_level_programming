@@ -1,5 +1,4 @@
 #include "main.h"
-#include "unistd.h"
 
 /**
  *main - starting point
@@ -13,7 +12,7 @@ char print[9] = "_putchar";
 
 int x = 0;
 
-while (x <= 9)
+while (x < 9)
 {
 _putchar(print[x]);
 x++;
