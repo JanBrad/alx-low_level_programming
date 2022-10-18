@@ -17,6 +17,6 @@ while (x <= 9)
 putchar(print[x]);
 x++;
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
