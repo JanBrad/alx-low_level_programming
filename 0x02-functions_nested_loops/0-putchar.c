@@ -6,16 +6,9 @@
  *Return: returns 0
  */
 
-int return_putchar(int x)
+int printwrds(int x)
 {
 x = _putchar;
 
-return x;
-}
-
-int main(void)
-{
-int return_putchar(x);
-
-return (0);
+return result;
 }
