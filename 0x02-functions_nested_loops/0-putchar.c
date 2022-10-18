@@ -8,7 +8,7 @@
 
 int printwrds(int x)
 {
-x = _putchar;
+int x = _putchar;
 
-return result;
+return x;
 }
