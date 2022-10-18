@@ -8,16 +8,15 @@
 
 int main(void)
 {
-char print[9] = " _putchar";
+char print[9] = "_putchar";
 
-int = 0;
+int x = 0;
 
 while (x <= 9)
 {
-putchar(print[x];
+putchar(print[x]);
 x++;
 }
 putchar('\n');
-
 return (0);
 }
