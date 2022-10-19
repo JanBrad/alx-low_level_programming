@@ -15,8 +15,8 @@ if (x >= 0)
 {
 
 int y = x % 10;
-int n = y * 11;
-return (n);
+_putchar(y);
+return (y);
 
 }
 
@@ -24,9 +24,8 @@ else if (x < 0)
 {
 
 int y = x % (-10);
-int n = y * 11;
-
-return (n);
+_putchar(y);
+return (y);
 
 }
 
