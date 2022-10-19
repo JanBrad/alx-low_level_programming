@@ -21,5 +21,6 @@ while (caps[x] == c)
 return (1);
 x++;
 }
+return (0);
 }
 
