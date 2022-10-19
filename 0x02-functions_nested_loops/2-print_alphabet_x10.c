@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *print_alphabet_10x - prints the alphabet 10x
+ *print_alphabet_10x - check the code
  *
  *Return: Always void
  */
@@ -23,5 +23,6 @@ _putchar(print[x]);
 x++;
 }
 _putchar('\n');
+y++;
 }
 }
