@@ -12,7 +12,7 @@ char  print[26] = "abcdefghijklmnopqrstuvwxyz";
 
 int x = 0;
 
-while (x < 27)
+while (x < 26)
 {
 _putchar(print[x]);
 x++;
