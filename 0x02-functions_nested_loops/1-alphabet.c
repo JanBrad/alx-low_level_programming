@@ -17,6 +17,5 @@ while (x < 27)
 _putchar(print[x]);
 x++;
 }
-putchar('\n');
-return (0);
+_putchar('\n');
 }
