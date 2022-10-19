@@ -8,7 +8,7 @@
  *Result: absolute value of int
  */
 
-int _abs(inti x)
+int _abs(int x)
 {
 
 int y = x * 2;
