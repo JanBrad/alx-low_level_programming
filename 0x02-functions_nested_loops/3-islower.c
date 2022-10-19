@@ -3,6 +3,8 @@
 /**
  *_islower - checks code
  *
+ *@c: parameter value
+ *
  *Return: returns 1 if lowercase. Returns 0 if otherwise
  */
 
