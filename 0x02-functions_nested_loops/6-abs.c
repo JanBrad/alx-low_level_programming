@@ -3,7 +3,7 @@
 /**
  *_abs - checks code
  *
- *@int: parameter value
+ *@x: parameter value
  *
  *Result: absolute value of int
  */
@@ -11,9 +11,9 @@
 int _abs(int x)
 {
 
-int y = x * 2;
+int y = x * (-2);
 
-if  (x < 0)
+if (x < 0)
 {
 
 int n = x + y;
