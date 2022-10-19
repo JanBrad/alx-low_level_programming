@@ -5,6 +5,8 @@
  *
  *@x: parameter value
  *
+ *Description: This function returns absolute value of a number
+ *
  *Returns: returns 0
  */
 
