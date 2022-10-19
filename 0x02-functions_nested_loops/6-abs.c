@@ -5,7 +5,7 @@
  *
  *@x: parameter value
  *
- *Result: returns value 0 and x and n 
+ *Returns: returns 0
  */
 
 int _abs(int x)
