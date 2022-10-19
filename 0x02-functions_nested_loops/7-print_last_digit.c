@@ -31,7 +31,7 @@ int n = 0;
 while (n < 2)
 {
 int y = x % (-10);
-return (y)
+return (y);
 }
 }
 
