@@ -10,10 +10,13 @@ void print_alphabet(void)
 {
 char  print[26] = "abcdefghijklmnopqrstuvwxyz";
 
-return print[26];
-}
+int x = 0;
 
-int main(void)
+while (x < 27)
 {
-print_alphabet();
+_putchar(print[x]);
+x++;
+}
+putchar('\n');
 return (0);
+}
