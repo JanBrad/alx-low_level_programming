@@ -3,14 +3,37 @@
 /**
  *print_last_digit - checks code
  *
+ *@x: parameter value
+ *
  *Return: Returns the value of the last digit x
  */
 
 int print_last_digit(int x)
 {
 
-int y = x % 10;
+if (x >= 0)
+{
 
+int n = 0;
+
+while (n < 2)
+{
+int y = x % 10;
 return (y);
+}
+}
+
+else if (x < 0)
+{
+
+int n = 0;
+
+while (n < 2)
+{
+int y = x % (-10);
+return (y)
+}
+}
+
 return (0);
 }
