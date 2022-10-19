@@ -22,6 +22,6 @@ while (x < 26)
 _putchar(print[x]);
 x++;
 }
-_purchar('\n');
+_putchar('\n');
 }
 }
