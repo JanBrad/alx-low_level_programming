@@ -8,21 +8,22 @@
  *Result: absolute value of int
  */
 
-int _abs(int)
+int _abs(inti x)
 {
 
-int x;
+int y = x * 2;
 
 if  (x < 0)
 {
-int y = x * 2;
-int x += y;
 
-_putchar(x);
+int n = x + y;
+
+_putchar(n);
 }
 
 else if (x >= 0)
 {
 _putchar(x);
 }
+return (0);
 }
