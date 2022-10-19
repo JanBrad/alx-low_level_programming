@@ -14,18 +14,19 @@ int print_last_digit(int x)
 if (x >= 0)
 {
 
-int y = (x % 10) * 11;
-
-return (y);
+int y = x % 10;
+int n = y * 11;
+return (n);
 
 }
 
 else if (x < 0)
 {
 
-int y = (x % (-10)) * 11;
+int y = x % (-10);
+int n = y * 11;
 
-return (y);
+return (n);
 
 }
 
