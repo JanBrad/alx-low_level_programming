@@ -5,7 +5,7 @@
  *
  *@x: parameter value
  *
- *Returns: Absolute value of number x
+ *Returns: Absolute value of number x and returns 0
  */
 
 int _abs(int x)
