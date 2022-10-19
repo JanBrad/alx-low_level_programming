@@ -18,12 +18,12 @@ if (x < 0)
 
 int n = x + y;
 
-_putchar (n);
+return (n);
 }
 
 else if (x >= 0)
 {
-_putchar(x);
+return (x);
 }
 return (0);
 }
