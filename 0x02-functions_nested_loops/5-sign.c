@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *print_sign - checks code 
+ *print_sign - checks code
  *
  *@n: parameter value
  *
@@ -23,7 +23,7 @@ _putchar('-');
 return (-1);
 }
 
-else 
+else
 {
 _putchar('0');
 return (0);
