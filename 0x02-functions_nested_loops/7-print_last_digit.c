@@ -18,11 +18,9 @@ int n = 0;
 
 while (n < 2)
 {
-int y = x % 10;
-int y2 = x % 10;
+int y = (x % 10) * 11;
 
 return (y);
-return (y2);
 }
 }
 
@@ -33,11 +31,9 @@ int n = 0;
 
 while (n < 2)
 {
-int y = x % (-10);
-int y2 = x % (-10);
+int y = (x % (-10)) * 11;
 
 return (y);
-return (y2);
 }
 }
 
