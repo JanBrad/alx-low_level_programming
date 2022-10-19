@@ -7,7 +7,7 @@
  *
  *Description: This function returns absolute value of a number x
  *
- *Returns: returns 0
+ *Returns: returns absolte value x
  */
 
 int _abs(int x)
