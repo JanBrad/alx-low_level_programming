@@ -9,17 +9,10 @@
 int _islower(int c)
 {
 
-char caps[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-int x = 0;
-
-while (x < 26)
-{
-
-while (caps[x] == c)
+if ('a' <= c && 'z' >= c)
 {
 
 return (1);
-x++;
 }
 return (0);
 }
