@@ -19,7 +19,7 @@ for (num = 0; num < 10; num++)
 
 putchar('0' + num);
 }
-for (alpha = 'a'; alpha <='f'; alpha++)
+for (alpha = 'a'; alpha <= 'f'; alpha++)
 {
 
 putchar(alpha);
