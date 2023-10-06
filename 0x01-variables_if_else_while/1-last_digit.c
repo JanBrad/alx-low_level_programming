@@ -22,17 +22,17 @@ x = n % 10;
 
 if (x > 5)
 {
-printf("Last digit of n is %d and is greater than 5\n", x);
+printf("Last digit of %d is %d and is greater than 5\n", n, x);
 }
 
 else if (x == 0)
 {
-printf("Last digit of n is %d and is 0\n", x);
+printf("Last digit of %d is %d and is 0\n", n, x);
 }
 
 else
 {
-printf("Last digit of n is %d and is greater than 6 and is not 0\n", x);
+printf("Last digit of %d is %d and is greater than 6 and is not 0\n", n, x);
 }
 
 return (0);
