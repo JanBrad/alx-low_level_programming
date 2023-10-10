@@ -17,5 +17,6 @@ while (x <= 8)
 _putchar(myStr[x]);
 x++;
 }
+_putchar("\n");
 return (0);
 }
