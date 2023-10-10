@@ -8,15 +8,15 @@
 
 int main(void)
 {
-char myStr[] = "_putchar";
+char myStr[] = "_putchar\n";
 
 int x = 0;
 
-while (x <= 8)
+while (x <= 9)
 {
 _putchar(myStr[x]);
 x++;
 }
-_putchar('\n');
+
 return (0);
 }
