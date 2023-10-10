@@ -8,6 +8,14 @@
 
 int main(void)
 {
-int c =_putchar(char "_putchar\n");
+char myStr[] = "_putchar";
+
+int x = 0;
+
+while (x <= 8)
+{
+_putchar(myStr[x]);
+x++;
+}
 return (0);
 }
