@@ -20,6 +20,7 @@ x++;
 while (x == 8)
 {
 _putchar('\n');
+x++;
 }
 }
 
