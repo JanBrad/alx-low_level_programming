@@ -15,7 +15,7 @@ int x = 0;
 
 while (x <= 25)
 {
-_putchar(x);
+_putchar(alphBet[x]);
 x++;
 
 while (x == 25)
@@ -24,4 +24,4 @@ _putchar('\n');
 x++;
 }
 }
-
+}
