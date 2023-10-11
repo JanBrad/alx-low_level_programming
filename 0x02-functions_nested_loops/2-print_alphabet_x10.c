@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 
 char alphBet[] = "abcdefghijklmnopqrstuvwxyz";
 
-int y =0;
+int y = 0;
 
 while (y <= 9)
 {
