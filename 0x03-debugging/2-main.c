@@ -11,8 +11,8 @@ int main(void)
         int a, b, c;
         int largest;
     
-	a = 98;
-	b = -8;
+	a = 45;
+	b = 45;
 	c = 4;
   
 
