@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper - Checks if a character is uppercase.
+ * _isdigit - Checks if a character is uppercase.
  *
  * @c: The character to be checked.
  *
@@ -14,8 +14,10 @@ int _isdigit(int c)
 char num[] = "0123456789";
 
 int x = 0;
+char y;
+y = '9';
 
-while (num[x] >= c || num[x] <= c)
+while (num[x]<= y)
 {
 
 if (num[x] == c)
