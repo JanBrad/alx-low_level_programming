@@ -12,14 +12,16 @@ void print_most_numbers(void)
 char num[] = "0123456789";
 
 int x;
+x =0;
 
-for (x = 0; x < 10; x++)
+while (x < 10)
 {
 
-if (x != 3 && x != 5)
+if ( x != 3 && x != 5)
 {
 _putchar(num[x]);
 }
+x++;
 }
 _putchar('\n');
 }
