@@ -11,8 +11,7 @@ void print_most_numbers(void)
 
 char num[] = "0123456789";
 
-int x;
-x =0;
+int x = 0;
 
 while (x < 10)
 {
@@ -23,5 +22,5 @@ _putchar(num[x]);
 }
 x++;
 }
-_putchar('\n');
+_putchar("\n");
 }
