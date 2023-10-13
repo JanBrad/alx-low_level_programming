@@ -18,7 +18,7 @@ while (x < 10)
 
 int y = 0;
 
-while(y < 20)
+while (y < 20)
 {
 _putchar(num[y]);
 y++;
@@ -26,5 +26,4 @@ y++;
 _putchar('\n');
 x++;
 }
-_putchar('\n');
 }
