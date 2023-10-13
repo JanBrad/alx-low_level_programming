@@ -22,5 +22,5 @@ _putchar(num[x]);
 }
 x++;
 }
-_putchar("\n");
+_putchar('\n');
 }
