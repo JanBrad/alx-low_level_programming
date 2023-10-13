@@ -16,7 +16,7 @@ int x;
 for (x = 0; x < 10; x++)
 {
 
-if (x != 1 || x != 3)
+if (x != 3 && x != 5)
 {
 _putchar(num[x]);
 }
