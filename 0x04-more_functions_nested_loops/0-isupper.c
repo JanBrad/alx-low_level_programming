@@ -10,14 +10,14 @@ int _isupper(int c)
 {
 
 char alphauppr[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-char alphalwr[] = "abcdefghijklmnopqrstuvwxyz"
+char alphalwr[] = "abcdefghijklmnopqrstuvwxyz";
 
-int x;
+int x = 0;
 
 while (alphauppr[x] != c)
 {
 
-if (x == 25)
+if (alphalwr[x] == c)
 {
 return (0);
 }
@@ -27,10 +27,11 @@ x++;
 while (alphalwr[x] != c)
 {
 
-if (x == 25)
+if (alphauppr[x] == c)
 {
 return (1);
 }
 x++;
 }
+return (0);
 }
