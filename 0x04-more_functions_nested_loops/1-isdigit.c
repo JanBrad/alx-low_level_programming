@@ -17,7 +17,7 @@ int x = 0;
 char y;
 y = '9';
 
-while (num[x]<= y)
+while (num[x] <= y)
 {
 
 if (num[x] == c)
