@@ -14,7 +14,7 @@ int x = 0;
 while (x <= n)
 {
 
-if ( n > 0)
+if (n > 0)
 {
 _putchar('_');
 }
