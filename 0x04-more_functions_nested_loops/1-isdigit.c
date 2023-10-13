@@ -20,7 +20,7 @@ while (num[x] >= c || num[x] <= c)
 
 if (num[x] == c)
 {
-return (1)
+return (1);
 }
 x++;
 }
