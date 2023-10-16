@@ -20,10 +20,12 @@ while (s[y] != '\0')
 y++;
 }
 
+y--;
+
 while (y >= 0)
 {
 _putchar(s[y]);
 y--;
 }
-
+_putchar('\n');
 }
