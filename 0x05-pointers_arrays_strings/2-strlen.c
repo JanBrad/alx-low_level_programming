@@ -3,9 +3,9 @@
 /**
  * _strlen - returns the length of a string
  *
- * @s: points to a string
+ * @s: pointer to a null-terminated string
  *
- * return: length of string
+ * Return: the number of characters in the string (excluding null byte)
  */
 
 int _strlen(char *s)
@@ -19,5 +19,5 @@ while (s[x] != '\0')
 {
 x++;
 }
-return x;
+return (x);
 }
