@@ -35,11 +35,11 @@ _putchar(str[y]);
 y++;
 }
 }
-else if ( x % 2 == 1)
+else if (x % 2 == 1)
 {
 
-k = ((x - 1) / 2) + 1;
-while ( k <= x)
+k = (x - 1) / 2;
+while (k <= x)
 {
 
 _putchar(str[k]);
