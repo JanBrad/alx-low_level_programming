@@ -21,7 +21,7 @@ while (str[x] != '\0')
 if (x == 0 || x % 2 == 0)
 {
 _putchar(str[x]);
-x++;
 }
+x++;
 }
 }
