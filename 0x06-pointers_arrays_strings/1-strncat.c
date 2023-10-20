@@ -38,7 +38,15 @@ x++;
 y++;
 }
 
+if (y <= n)
+{
 dest[x] = '\0';
+}
+
+else
+{
+x--;
+}
 
 return (dest);
 }
