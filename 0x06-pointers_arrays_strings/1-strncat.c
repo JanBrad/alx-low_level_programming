@@ -37,6 +37,7 @@ dest[x] = src[y];
 x++;
 y++;
 }
+x++;
 
 if (y <= n)
 {
