@@ -24,17 +24,20 @@ while (dest[x] != '\0')
 x++;
 }
 
-while (y < n)
+dest[x] = ' ';
+
+while (src[y] != '\0')
+{
+
+if (y < n)
 {
 dest[x] = src[y];
+}
+
 x++;
 y++;
 }
 
-if (y < n)
-{
-dest[x] = '\0';
-}
 
 return (dest);
 }
