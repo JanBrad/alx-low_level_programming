@@ -21,28 +21,30 @@ int y;
 x = 0;
 y = 0;
 
-while (s1[x] != '\0')
+while (s1[x] != '\0' && s2[y] != '\0')
 {
-x++;
+
+if (s1[x] > s2[y])
+{
+return (15);
+break;
 }
 
-while (s2[y] != '\0')
+else if (s1[x] < s2[y])
 {
+return (-15);
+break;
+}
+
+x++;
 y++;
 }
 
-if (x > y)
-{
-return (15);
-}
-
-else if (x < y)
-{
-return (-15);
-}
-
-else
-{
-return (0);
-}
+if (s1[x] == s2[y]) {
+        return 0;
+    } else if (s1[x] > s2[y]) {
+        return 15;
+    } else {
+        return -15;
+    }
 }
