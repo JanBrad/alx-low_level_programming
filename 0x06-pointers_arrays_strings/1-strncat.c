@@ -26,27 +26,16 @@ x++;
 
 dest[x] = ' ';
 
-while (src[y] != '\0')
+while (src[y] != '\0' && y < n)
 {
 
-if (y < n)
-{
-dest[x] = src[y];
-}
+dest[x + y] = src[y];
 
-x++;
 y++;
 }
 
-if (y <= n)
-{
-dest[x] = '\0';
-}
+dest[x + y] = '\0';
 
-else
-{
-x--;
-}
 
 return (dest);
 }
