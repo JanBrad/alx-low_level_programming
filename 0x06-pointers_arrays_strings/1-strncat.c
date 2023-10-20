@@ -37,12 +37,8 @@ dest[x] = src[y];
 x++;
 y++;
 }
-x++;
 
-if (y <= n)
-{
 dest[x] = '\0';
-}
 
 return (dest);
 }
