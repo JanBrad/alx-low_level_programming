@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _strncat - concatenates dest with at most n bytes from src
+ * _strncat - Concatenate two strings with a limit on the number of characters
  *
- * @dest: destination array
- * @src: array that will be conatenated with dest
- * @n: number of chars that will be concatenated from src to dest
+ * @dest: The destination string to which the source will be concatenated
+ * @src: The source string to be concatenated to dest
+ * @n: The maximum number of characters to concatenate from src
  *
- * return: concatenated dest array
+ * Return: A pointer to the resulting string dest
  */
 
 char *_strncat(char *dest, char *src, int n)
