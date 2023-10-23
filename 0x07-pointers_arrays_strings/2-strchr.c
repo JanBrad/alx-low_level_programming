@@ -2,13 +2,14 @@
 #define NULL ((void *)0)
 
 /**
- * _strchr - locates a character in a string
+ * _strchr - Locates a character in a string
  *
- * @s: string to be searched for character
- * @c: character to be searched in string
+ * @s: String to be searched for character
+ * @c: Character to be searched in the string
  *
- * return: pointer to s
+ * Return: Pointer to the first occurrence of @c in @s, or NULL if not found
  */
+
 
 char *_strchr(char *s, char c)
 {
