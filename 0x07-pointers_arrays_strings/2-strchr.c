@@ -27,6 +27,12 @@ return (s + x);
 x++;
 }
 
+
+if (s[x] == '\0')
+{
+return (s + x);
+}
+
 return (NULL);
 
 }
