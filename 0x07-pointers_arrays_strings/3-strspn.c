@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * _strspn - gets the length of a prefix substring
+ * _strspn - Gets the length of a prefix substring.
  *
- * @s: pointer to string with prefix substring
- * @accept: bytes that must be counted in prefix substring
+ * @s: Pointer to the string with the prefix substring.
+ * @accept: Bytes that must be counted in the prefix substring.
  *
- * return: int of bytes in the initial segment of s
+ * Return: Number of bytes in the initial segment of s.
  */
+
 
 unsigned int _strspn(char *s, char *accept)
 {
