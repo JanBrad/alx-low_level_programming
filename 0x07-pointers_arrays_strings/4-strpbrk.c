@@ -10,7 +10,6 @@
  * Return: pointer to the first occurrence of byte that matches any byte in accept
  */
 
-
 char *_strpbrk(char *s, char *accept)
 {
 
