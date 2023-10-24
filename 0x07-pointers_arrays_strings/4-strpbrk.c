@@ -3,12 +3,11 @@
 
 /**
  * _strpbrk - Searches a string for any of a set of bytes.
- *
  * @s: Pointer to the string to be searched.
  * @accept: Pointer to the set of bytes to be compared with the string.
  *
- * Return: Pointer to the first occurrence of a byte that matches any byte in accept,
- *         or NULL if no such byte is found.
+ * Return: Pointer to the first occurrence of a byte that matches any byte in
+ *         accept, or NULL if no such byte is found.
  */
 
 char *_strpbrk(char *s, char *accept)
