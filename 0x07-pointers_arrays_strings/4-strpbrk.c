@@ -2,12 +2,13 @@
 #define NULL ((void *) 0)
 
 /**
- * _strpbrk - searches a string for any of a set of bytes
+ * _strpbrk - Searches a string for any of a set of bytes.
  *
- * @s: pointer to the string to be searched
- * @accept: pointer to the set of bytes to be compared with the string
+ * @s: Pointer to the string to be searched.
+ * @accept: Pointer to the set of bytes to be compared with the string.
  *
- * return: pointer to the first occurrence of byte that matches any byte in accept, or NULL if no such byte is found
+ * Return: Pointer to the first occurrence of a byte that matches any byte in accept,
+ *         or NULL if no such byte is found.
  */
 
 char *_strpbrk(char *s, char *accept)
