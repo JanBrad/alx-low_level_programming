@@ -5,7 +5,7 @@
  *
  * @n: integer that program will find factorial for
  *
- * return: the factorial integer, or -1 to show an error
+ * return: The factorial of the input integer. Returns -1 if the input is negative or an error occurs.
  */
 
 int factorial(int n)
@@ -23,6 +23,6 @@ if (n < 0)
 return (-1);
 }
 
-return ( n * factorial(n - 1));
+return (n * factorial(n - 1));
 
 }
