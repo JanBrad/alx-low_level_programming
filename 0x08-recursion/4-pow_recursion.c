@@ -6,7 +6,7 @@
  * @x: integer to be multiplied with itself
  * @y: power  of x ( number of times x will multiply itself)
  *
- * return: the result of x raised to the power of y, or -1 in case of an error
+ * return: the result of @x raised to the power of @y, or -1 in case of an error
  */
 
 int _pow_recursion(int x, int y)
