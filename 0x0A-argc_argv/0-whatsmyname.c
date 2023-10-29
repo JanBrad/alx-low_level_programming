@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - Access point of program
+ * main - Entry point of the program
+ * @argc: Number of arguments passed (unused)
+ * @argv: Pointer to an array of pointers to arguments
  *
- * @argc - number of arguments passed (unused)
- * @argv - pointer to an array of pointers to arguments
- *
- *Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
+
 
 int main(int argc __attribute__((unused)), char *argv[])
 {
