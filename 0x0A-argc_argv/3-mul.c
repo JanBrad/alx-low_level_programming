@@ -14,7 +14,7 @@ int main(int argc __attribute__((unused)), char *argv[])
 
 int x;
 
-if (argv[1] == NULL || argv[0] == NULL)
+if (argv[1] == NULL || argv[2] == NULL)
 {
 
 printf("Error\n");
