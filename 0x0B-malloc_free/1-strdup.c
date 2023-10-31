@@ -19,15 +19,21 @@ int k;
 y = 0;
 k = 0;
 
+if (str == NULL)
+{
+
+return (NULL);
+}
+
 while (str[y] != '\0')
 {
 
 y++;
 }
 
-x = malloc((sizeof(char) * y) + 1);
+x = malloc((sizeof(char) * y) +1);
 
-if (x == NULL || str == NULL)
+if (x == NULL)
 {
 
 return (NULL);
