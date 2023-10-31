@@ -19,7 +19,7 @@ unsigned int y;
 y = 0;
 x = malloc(sizeof(char) * size);
 
-if (size == 0)
+if (size == 0 || x == NULL)
 {
 
 return (NULL);
