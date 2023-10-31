@@ -19,19 +19,20 @@ int k;
 y = 0;
 k = 0;
 
-if (str == NULL)
-{
-
-return (NULL);
-}
-
 while (str[y] != '\0')
 {
 
 y++;
 }
 
+k++;
 x = malloc(sizeof(char) * y);
+
+if (x == NULL)
+{
+
+return (NULL);
+}
 
 while (k < y)
 {
