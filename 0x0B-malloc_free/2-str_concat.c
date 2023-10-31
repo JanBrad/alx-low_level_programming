@@ -36,22 +36,20 @@ if (x == NULL)
 x = " ";
 return (x);
 }
-if (s1 != NULL)
-{
+
 while (n < y)
 {
 x[n] = s1[n];
 n++;
 }
-}
-if (s2 != NULL)
-{
+
+
 while (n < (y + k))
 {
 x[n] = s2[l];
 l++;
 n++;
 }
-}
+
 return (x);
 }
