@@ -30,12 +30,7 @@ while (s2[k] != '\0')
 {
 k++;
 }
-x = malloc(sizeof(char) * y * k -18);
-if (x == NULL)
-{
-x = " ";
-return (x);
-}
+x = malloc(sizeof(char) * y *k - 18);
 
 while (n < y)
 {
