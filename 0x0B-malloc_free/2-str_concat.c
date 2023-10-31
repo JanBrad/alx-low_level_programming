@@ -32,15 +32,30 @@ k++;
 }
 x = malloc(sizeof(char) * y *k - 18);
 
-while (n < y)
+if (x == NULL)
 {
+X = " ";
+return (x);
+}
+
+while (n <= y)
+{
+if (s1 == NULL)
+{
+x[0] = " ";
+n++;
+}
 x[n] = s1[n];
 n++;
 }
+}
 
-
-while (n < (y + k))
+while (n <= (y + k))
 {
+if (s2 == NULL)
+{
+x[n + 1] = " ";
+}
 x[n] = s2[l];
 l++;
 n++;
