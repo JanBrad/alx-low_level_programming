@@ -25,9 +25,9 @@ while (str[y] != '\0')
 y++;
 }
 
-x = malloc(sizeof(char) * y);
+x = malloc((sizeof(char) * y) + 1);
 
-if (x == NULL)
+if (x == NULL || str == NULL)
 {
 
 return (NULL);
