@@ -44,10 +44,6 @@ x[n] = s1[n];
 n++;
 }
 }
-	else
-{
-	x = " ";
-}
 if (s2 != NULL)
 {
 while (n < (y + k))
@@ -56,10 +52,6 @@ x[n] = s2[l];
 l++;
 n++;
 }
-}
-        else
-{
-        x = " ";
 }
 return (x);
 }
