@@ -30,7 +30,7 @@ while (s2[k] != '\0')
 {
 k++;
 }
-x = malloc(sizeof(char) *y *k);
+x = malloc(sizeof(char) * y * k -18);
 if (x == NULL)
 {
 x = " ";
@@ -44,6 +44,10 @@ x[n] = s1[n];
 n++;
 }
 }
+	else
+{
+	x = " ";
+}
 if (s2 != NULL)
 {
 while (n < (y + k))
@@ -52,6 +56,10 @@ x[n] = s2[l];
 l++;
 n++;
 }
+}
+        else
+{
+        x = " ";
 }
 return (x);
 }
