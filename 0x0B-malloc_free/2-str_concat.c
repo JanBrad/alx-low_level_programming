@@ -32,13 +32,13 @@ k++;
 }
 x = malloc(sizeof(char) * y *k - 18);
 
-if (x == NULL)
+if (x == NULL || (s1 == NULL && s2 == NULL)
 {
 x = " ";
 return (x);
 }
 
-if (*s1 != " " || s1 != NULL)
+if (s1 != NULL)
 {
 while (n < y)
 {
@@ -47,7 +47,7 @@ n++;
 }
 }
 
-if (*s2 != " " || s2 != NULL)
+if (s2 != NULL)
 {
 while (n < (y + k))
 {
