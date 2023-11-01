@@ -32,29 +32,23 @@ k++;
 }
 x = malloc(sizeof(char) * y *k - 18);
 
-if (x == NULL || (s1 == NULL && s2 == NULL)
+if (x == NULL || (s1 == NULL && s2 == NULL))
 {
 x = " ";
 return (x);
 }
 
-if (s1 != NULL)
-{
 while (n < y)
 {
 x[n] = s1[n];
 n++;
 }
-}
 
-if (s2 != NULL)
-{
 while (n < (y + k))
 {
 x[n] = s2[l];
 l++;
 n++;
-}
 }
 
 return (x);
