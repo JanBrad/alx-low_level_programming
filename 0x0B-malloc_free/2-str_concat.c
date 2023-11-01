@@ -38,7 +38,7 @@ x = " ";
 return (x);
 }
 
-if (s1 != " " || s1 != NULL)
+if (*s1 != " " || s1 != NULL)
 {
 while (n < y)
 {
@@ -47,7 +47,7 @@ n++;
 }
 }
 
-if (s1 != " " || s1 != NULL)
+if (*s2 != " " || s2 != NULL)
 {
 while (n < (y + k))
 {
