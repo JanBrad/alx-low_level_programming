@@ -38,17 +38,23 @@ x = " ";
 return (x);
 }
 
+if (s1 != " " || s1 != NULL)
+{
 while (n < y)
 {
 x[n] = s1[n];
 n++;
 }
+}
 
+if (s1 != " " || s1 != NULL)
+{
 while (n < (y + k))
 {
 x[n] = s2[l];
 l++;
 n++;
+}
 }
 
 return (x);
