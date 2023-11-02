@@ -5,7 +5,7 @@
  * string_nconcat - Concatenates two strings
  * @s1: Pointer to the first string
  * @s2: Pointer to the second string
- * @b: Number of bytes from s2 to concatenate with s1
+ * @n: Number of bytes from s2 to concatenate with s1
  *
  * Return: Pointer to concatenated string, or NULL on failure
  */
