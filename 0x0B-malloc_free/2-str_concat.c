@@ -21,6 +21,16 @@ k = 0;
 n = 0;
 l = 0;
 
+if (s1 == NULL)
+{
+s1 = " ";
+}
+
+if (s2 == NULL)
+{
+s2 = " ";
+}
+
 while (s1[y] != '\0')
 {
 
@@ -30,12 +40,11 @@ while (s2[k] != '\0')
 {
 k++;
 }
-x = malloc(sizeof(char) * y *k - 18);
+x = malloc(sizeof(char) * (y + k + 1));
 
 if (x == NULL)
 {
-x = " ";
-return (x);
+return (NULL);
 }
 
 while (s1 != NULL && n < y)
