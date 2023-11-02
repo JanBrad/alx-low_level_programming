@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - Concatenates two strings up to a certain number of bytes.
- * @s1: Pointer to the first string.
- * @s2: Pointer to the second string.
- * @b: Number of bytes from s2 to concatenate with s1.
+ * string_nconcat - Concatenates two strings
+ * @s1: Pointer to the first string
+ * @s2: Pointer to the second string
+ * @b: Number of bytes from s2 to concatenate with s1
  *
- * Return: Pointer to concatenated string, or NULL on failure.
+ * Return: Pointer to concatenated string, or NULL on failure
  */
 
 
@@ -44,7 +44,6 @@ while (k < y)
 x[k] = s1[k];
 k++;
 }
-
 while (l < n && s2[l] != '\0')
 {
 x[k] = s2[l];
@@ -54,4 +53,3 @@ l++;
 x[k] = '\0';
 return (x);
 }
-
