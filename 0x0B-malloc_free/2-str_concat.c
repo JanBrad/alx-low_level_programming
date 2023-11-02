@@ -16,16 +16,21 @@ char *str_concat(char *s1, char *s2)
 char *x;
 int y, l, n, k;
 
-y = 0;
-k = 0;
-n = 0;
-l = 0;
+y = 0, k = 0, n = 0, l = 0;
 
-while (s1[y] != '\0')
+if (s1 == NULL)
+{
+s1 = "";
+}
+if (s2 == NULL)
+{
+s2 = "";
+}
+while (s1[y] != '\0' && s1 != NULL)
 {
 y++;
 }
-while (s2[k] != '\0')
+while (s2[k] != '\0' && s2 != NULL)
 {
 k++;
 }
@@ -35,19 +40,16 @@ if (x == NULL)
 {
 return (NULL);
 }
-
-while (s1 != NULL && n < y)
+while (n < y)
 {
 x[n] = s1[n];
 n++;
 }
-
-while (s2 != NULL && n < (y + k))
+while (n < (y + k))
 {
 x[n] = s2[l];
 l++;
 n++;
 }
-
 return (x);
 }
