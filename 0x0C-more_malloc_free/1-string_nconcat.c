@@ -10,7 +10,6 @@
  * Return: Pointer to concatenated string, or NULL on failure
  */
 
-
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 
