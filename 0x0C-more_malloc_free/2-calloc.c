@@ -15,7 +15,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 int *x;
 unsigned int y;
-int k[1];
 
 if (nmemb == 0 || size == 0)
 {
@@ -31,7 +30,7 @@ return (NULL);
 
 while (y < nmemb)
 {
-*x = k[y];
+*x = x[y];
 y++;
 }
 
