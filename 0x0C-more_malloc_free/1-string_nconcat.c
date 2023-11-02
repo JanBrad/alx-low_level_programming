@@ -31,6 +31,7 @@ while (s1[y] != '\0')
 {
 y++;
 }
+
 x = malloc(y + n + 1);
 
 if (x == NULL)
@@ -43,12 +44,14 @@ while (k < y)
 x[k] = s1[k];
 k++;
 }
+
 while (l < n && s2[l] != '\0')
 {
 x[k] = s2[l];
 k++;
 l++;
 }
+
 x[k] = '\0';
 return (x);
 }
