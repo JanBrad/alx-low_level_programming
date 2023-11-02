@@ -2,13 +2,14 @@
 #include <stdlib.h>
 
 /**
- * *string_nconcat - concatenates two strings
- * @s1: pointer to a string
- * @s2: pointer to a string
- * @b: number of bytes from s2 concatenated with s1
+ * string_nconcat - Concatenates two strings up to a certain number of bytes.
+ * @s1: Pointer to the first string.
+ * @s2: Pointer to the second string.
+ * @b: Number of bytes from s2 to concatenate with s1.
  *
- * Return: pointer to a new string
+ * Return: Pointer to concatenated string, or NULL on failure.
  */
+
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
