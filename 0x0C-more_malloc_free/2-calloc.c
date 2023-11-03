@@ -35,6 +35,7 @@ while (y < nmemb)
 *x = x[y];
 y++;
 }
+x[y] = 0;
 
 return (x);
 }
