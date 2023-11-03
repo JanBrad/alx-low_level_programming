@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * *_calloc(unsigned int nmemb, unsigned int size - allocates memory for an array
+ * *_calloc - allocates memory for an array
  *
  * @nmemb: number of elements
  * @size: number of bytes ineach element
@@ -15,6 +15,8 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 int *x;
 unsigned int y;
+
+y = 0;
 
 if (nmemb == 0 || size == 0)
 {
