@@ -15,7 +15,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 
 va_list x;
-unsigned int y ;
+unsigned int y;
 unsigned int z;
 
 y = 0;
