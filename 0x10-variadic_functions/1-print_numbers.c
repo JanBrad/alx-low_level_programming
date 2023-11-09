@@ -5,8 +5,8 @@
 /**
  * print_numbers - prints numbers
  *
- * @separator: pointer to string between numbers
- * @n: number of arguments to be printed
+ * @separator: pointer to string to be printed between numbers
+ * @n: number of integers passed to the function
  *
  * Return: void
  */
