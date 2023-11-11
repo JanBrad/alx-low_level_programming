@@ -33,7 +33,7 @@ printf("%s", z);
 }
 if (z == NULL)
 {
-printf("nil");
+printf("(nil)");
 }
 y++;
 
